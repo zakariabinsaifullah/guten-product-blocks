@@ -1,0 +1,63 @@
+.wp-block-gpb-blocks-product-showcase {
+  margin: 30px auto 30px !important;
+  p, h1,h2,h3,h4,h5,h6{
+    padding: 0 20px;
+  }
+  .product-head {
+    text-align: center;
+    background: #ccc;
+    padding: 10px 0;
+    margin: -1px;
+  }
+  .product-subtitle h3 {
+      font-weight: 700;
+  }
+
+  .product-title h3 {
+      font-weight: 400;
+  }
+
+  .product-image {
+    text-align: center;
+    padding: 50px 0;
+    a {
+      display: block;
+    }
+    img {
+      max-width: 300px;
+    }
+  }
+
+  .wp-block-gpb-blocks-button-block.single-product-btn {
+    margin-bottom: 50px;
+  }
+
+  .wp-block-gpb-blocks-pros-cons-block {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+  }
+
+  .wp-block-gpb-blocks-pros-block,
+  .wp-block-gpb-blocks-cons-block {
+    width: 100%;
+    margin: 0 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wp-block-gpb-blocks-product-showcase {
+    margin: 60px auto 5px !important;
+    padding-bottom: 20px !important;
+    .wp-block-gpb-blocks-pros-cons-block {
+      display: block !important;
+    }
+
+    .wp-block-gpb-blocks-pros-block,
+    .wp-block-gpb-blocks-cons-block {
+      width: auto !important;
+      margin: 0 20px 15px !important;
+    }
+  }
+}

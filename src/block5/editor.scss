@@ -1,0 +1,29 @@
+.wp-block-gpb-blocks-product-showcase {
+  padding-bottom: 20px;
+  .single-product-img {
+    max-width: 300px;
+  }
+  .content-list ul {
+    width: 100% !important;
+  }
+  .wp-block-gpb-blocks-pros-cons-block {
+    display: block;
+  }
+  .wp-block-gpb-blocks-pros-block,
+  .wp-block-gpb-blocks-cons-block {
+    width: 100%;
+    margin: 0;
+  }
+  [data-type="gpb-blocks/pros-cons-block"] {
+    .block-editor-block-list__layout {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+    }
+    [data-type="gpb-blocks/pros-block"],
+    [data-type="gpb-blocks/cons-block"] {
+      width: 100%;
+      margin: 0 20px !important;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.wp-block-gpb-blocks-product-showcase-block {
+  position: relative;
+  margin: 50px 0;
+  border-radius: 20px;
+  a,
+  a:hover {
+    text-decoration: none !important;
+  }
+  p {
+    font-size: 15px !important;
+    line-height: 1.8 !important;
+    margin-bottom: 10px;
+  }
+  .product-head,
+  .single-product-btn {
+    padding: 20px;
+  }
+
+  .product-head {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .product-title {
+    flex: 1;
+    h3 {
+      font-size: 23px;
+      font-weight: 700;
+      line-height: 1.4;
+      margin: 0 !important;
+    }
+  }
+  .product-image {
+    padding: 0;
+    text-align: center;
+  }
+  .product-image img {
+    margin-bottom: 0 !important;
+  }
+  .single-product-btn {
+    text-align: center;
+  }
+  .single-product-btn a {
+    padding: 16px 24px 14px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 18px;
+    position: relative;
+    margin-bottom: 0;
+    border-radius: 3px;
+    position: relative;
+    z-index: 5;
+  }
+  .single-product-btn a:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    transition: all 0.45s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .single-product-btn a:hover:after {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wp-block-gpb-blocks-product-showcase-block {
+    .product-details {
+      padding: 20 20px 0 !important;
+    }
+
+    .product-head,
+    .single-product-btn {
+      padding: 20px !important;
+    }
+
+    .product-image img {
+      max-width: 220px !important;
+      padding: 5px 0 !important;
+    }
+    .product-head {
+      padding: 40px 20px !important;
+    }
+    .product-head h3 {
+      font-size: 18px !important;
+    }
+
+    .product-footer-area {
+      display: block !important;
+    }
+    .product-footer-area {
+      padding: 0 20px 10px !important;
+    }
+  }
+}
